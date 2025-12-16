@@ -2,9 +2,9 @@
 const nextConfig = {
   output: 'export',
   images: {
-    unoptimized: true,
+    unoptimized: true, // ضروري جداً لظهور الصور في GitHub Pages
   },
-  // إعدادات المسار الفرعي لـ GitHub Pages
+  // هذا يجعل الموقع يعمل داخل المجلد الفرعي للمستودع
   basePath: '/landing-page-template',
   assetPrefix: '/landing-page-template',
 };
