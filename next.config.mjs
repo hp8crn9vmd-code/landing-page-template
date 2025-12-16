@@ -2,11 +2,11 @@
 const nextConfig = {
   output: 'export',
   images: {
-    unoptimized: true, // ضروري جداً لظهور الصور في GitHub Pages
+    unoptimized: true,
   },
-  // هذا يجعل الموقع يعمل داخل المجلد الفرعي للمستودع
   basePath: '/landing-page-template',
   assetPrefix: '/landing-page-template',
+  trailingSlash: true, // مهم جداً: يضيف / في نهاية الروابط لضمان تحميل المجلدات بشكل صحيح
 };
 
 export default nextConfig;
