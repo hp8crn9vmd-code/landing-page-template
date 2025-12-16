@@ -1,0 +1,42 @@
+{
+  "colors": {
+    "primary": {
+      "base": "#0066FF",
+      "hover": "#0052CC",
+      "active": "#003D99"
+    },
+    "alert": {
+      "info": "#E6F2FF",
+      "success": "#E6F7ED",
+      "warning": "#FFF4E6",
+      "error": "#FBEBEB"
+    },
+    "neutral": {
+      "white": "#FFFFFF",
+      "black": "#000000",
+      "gray100": "#F3F4F6",
+      "gray200": "#E5E7EB",
+      "gray800": "#1F2937"
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "sans": "Inter, system-ui, sans-serif"
+    }
+  },
+  "spacing": {
+    "unit": 8,
+    "section": 80
+  },
+  "animations": {
+    "durations": {
+      "fast": "150ms",
+      "medium": "300ms",
+      "slow": "500ms"
+    },
+    "easing": {
+      "default": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "bounce": "cubic-bezier(0.68, -0.55, 0.27, 1.55)"
+    }
+  }
+}

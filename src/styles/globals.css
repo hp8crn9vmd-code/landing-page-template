@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Colors - Primary */
+  --color-primary: #0066FF;
+  --color-primary-hover: #0052CC;
+  --color-primary-active: #003D99;
+  
+  /* Colors - Alerts */
+  --color-info: #E6F2FF;
+  --color-success: #E6F7ED;
+  --color-warning: #FFF4E6;
+  --color-error: #FBEBEB;
+
+  /* Colors - Base */
+  --color-background: #FFFFFF;
+  --color-foreground: #1F2937;
+
+  /* Typography */
+  --font-sans: 'Inter', system-ui, sans-serif;
+
+  /* Animation */
+  --ease-default: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-bounce: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+/* Dark Mode Support */
+[data-theme='dark'] {
+  --color-background: #0a0a0a;
+  --color-foreground: #ededed;
+}
+
+body {
+  color: var(--color-foreground);
+  background: var(--color-background);
+  font-family: var(--font-sans);
+}
