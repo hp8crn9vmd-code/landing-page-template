@@ -22,7 +22,7 @@ const FeatureCard = ({
   };
 
   // تحديد مسار الأيقونة الافتراضي
-  const iconPath = iconSrc || `/assets/icons/feature-icon-${index}.${i18n.language}.svg`;
+  const iconPath = iconSrc || `/landing-page-template/assets/icons/feature-icon-${index}.${i18n.language}.svg`;
 
   // تنسيقات الحاوية بناءً على المتغير (Variant)
   const containerClasses = clsx(
@@ -46,7 +46,7 @@ const FeatureCard = ({
             className="w-6 h-6"
             onError={(e) => {
               e.target.onerror = null; 
-              e.target.src = '/assets/placeholders/logo-full-color-placeholder.svg'; // Fallback
+              e.target.src = '/landing-page-template/assets/placeholders/logo-full-color-placeholder.svg'; // Fallback
             }}
           />
         </div>

@@ -38,14 +38,14 @@ const Hero = ({
             muted
             loop
             playsInline
-            poster={`/assets/hero/hero-placeholder-16x9.jpg`} // Fallback poster
+            poster={`/landing-page-template/assets/hero/hero-placeholder-16x9.jpg`} // Fallback poster
           >
-            <source src={`/assets/hero/hero-video.${lang}.mp4`} type="video/mp4" />
+            <source src={`/landing-page-template/assets/hero/hero-video.${lang}.mp4`} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         ) : (
           <img 
-            src={`/assets/hero/hero-background.${lang}.jpg`} 
+            src={`/landing-page-template/assets/hero/hero-background.${lang}.jpg`} 
             alt={content.bgAlt}
             className="w-full h-full object-cover"
           />

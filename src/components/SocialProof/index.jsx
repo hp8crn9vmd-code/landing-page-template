@@ -31,7 +31,7 @@ const SocialProof = () => {
                 لضمان عدم ظهور صور مكسورة في العرض التجريبي
               */}
               <img
-                src={`/assets/clients/client-logo-${index}.png`}
+                src={`/landing-page-template/assets/clients/client-logo-${index}.png`}
                 alt={t(`client_logo_alt_${index}`)}
                 className="max-w-full max-h-full object-contain"
                 loading="lazy"

@@ -18,7 +18,7 @@ const Footer = () => {
           {/* Logo & Copyright */}
           <div className="flex flex-col items-center md:items-start gap-4">
             <img 
-              src={`/assets/logos/logo-full-color.${i18n.language}.svg`} 
+              src={`/landing-page-template/assets/logos/logo-full-color.${i18n.language}.svg`} 
               alt={t('footer_logo_alt')} 
               className="h-8 w-auto grayscale opacity-70 hover:grayscale-0 transition-all"
             />

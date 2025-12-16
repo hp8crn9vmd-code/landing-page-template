@@ -24,7 +24,7 @@ const Testimonial = ({
   };
 
   // مسار الصورة الافتراضي
-  const avatarPath = avatarSrc || `/assets/avatars/avatar-${index}.${i18n.language}.jpg`;
+  const avatarPath = avatarSrc || `/landing-page-template/assets/avatars/avatar-${index}.${i18n.language}.jpg`;
 
   // تنسيقات الحاوية
   const containerClasses = clsx(
@@ -63,7 +63,7 @@ const Testimonial = ({
             className="w-12 h-12 rounded-full object-cover ring-2 ring-gray-100"
             onError={(e) => {
               e.target.onerror = null;
-              e.target.src = '/assets/placeholders/avatar-placeholder-0.jpg'; // Fallback per spec
+              e.target.src = '/landing-page-template/assets/placeholders/avatar-placeholder-0.jpg'; // Fallback per spec
             }}
           />
         </div>

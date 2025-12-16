@@ -21,7 +21,7 @@ const Header = () => {
           <Link href="/" aria-label={t('header_logo_alt')}>
             {/* استخدام الشعار المناسب للغة */}
             <img 
-              src={`/assets/logos/logo-full-color.${i18n.language}.svg`} 
+              src={`/landing-page-template/assets/logos/logo-full-color.${i18n.language}.svg`} 
               alt={t('header_logo_alt')} 
               className="h-8 w-auto" // المواصفات: min height 40px (h-10) لكن 32px (h-8) شائع، سنلتزم بالملف min 40px
               style={{ minHeight: '40px' }}
